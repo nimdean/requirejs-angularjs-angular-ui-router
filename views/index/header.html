@@ -1,0 +1,9 @@
+<div>
+    <div class="itemLogo" ng-click="$state.go('home')">
+        <img src="image/logo.png"/>
+        <span>{{header.title}}</span>
+    </div>
+    <ul class="itemMenu">
+        <li ng-repeat="items in header.menu"><a ui-sref="{{items.href}}">{{items.name}}</a></li>
+    </ul>
+</div>

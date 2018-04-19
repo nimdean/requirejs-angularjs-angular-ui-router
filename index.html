@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>angular+uiRouter+require组合的demo</title>
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon"/>
+    <!-- <link rel="stylesheet" type="text/css" href="css/index/index.css" /> -->
+    <script data-main="js/main" src="js/lib/require.min.js"></script>
+</head>
+
+<body ng-controller="indexCtrl">
+    <div class="itemHeader" ng-include="'views/index/header.html'"></div>
+    <div class="itemContent" ui-view></div>
+    <div class="itemFooter" ng-include="'views/index/footer.html'"></div>
+</body>
+
+</html>
