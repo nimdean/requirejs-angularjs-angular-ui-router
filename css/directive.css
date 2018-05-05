@@ -1,0 +1,55 @@
+/* 分页插件样式 */
+.pagination{
+    height:25px;
+    padding:10px;
+}
+.pagination select{
+    width:70px;
+    height:25px;
+    border:1px solid #cfcfcf;
+    border-radius:3px;
+}
+.pagination input[type='button']{
+    padding:3px 5px;
+    border:1px solid #cfcfcf;
+    color:#6d6d6d;
+    border-radius:3px;
+    background:none;
+    outline: none;
+    cursor:pointer;
+}
+.pagination input[type='button']:hover{
+    background:#33bbff;
+    color:#fff;
+}
+.paginationList{
+    display: inline-block;
+    height:100%;
+}
+.paginationList ul{
+    display: flex;
+    justify-content: space-around;
+}
+.paginationList ul li{
+    padding:0 2px;
+    border:1px solid #cfcfcf;
+    text-align: center;
+    height:23px;
+    line-height:23px;
+    color:#6d6d6d;
+    cursor:pointer;
+    border-radius:3px;
+    margin:0 1px;
+}
+.paginationGo{
+    width:50px;
+    border:1px solid #cfcfcf;
+    height:22px;
+    border-radius:3px;
+    vertical-align: top;
+    text-align: center;
+}
+.paginationLiActive{
+    background:#33bbff;
+    color:#fff!important;
+}

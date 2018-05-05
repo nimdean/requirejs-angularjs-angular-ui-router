@@ -14,7 +14,7 @@ require.config({
             exports:'angular'
         },
         'uiRouter':{// 示例，将几个css文件也依赖了进来
-            deps:['angular','css!/css/reset.css','css!/css/index.css']
+            deps:['angular','css!/css/reset.css','css!/css/index.css','css!/css/directive.css']
         }
     },
     waitSeconds:0,
