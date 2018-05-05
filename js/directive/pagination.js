@@ -9,6 +9,20 @@ define([], function () {
                 paginationSet: '='
             },
             link:function(scope,ele,attr){
+                /* 
+                    使用方法示例：
+                        ①.标签 <div pagination pagination-set='pageSet'></div>
+                        ②.参数 $scope.pageSet = {
+                            currentPage:1, // 当前页
+                            totalItems:100,
+                            totalPage:35, // 总页数
+                            eachPageNum:10, // 每页展示数
+                            eachPageNumList:[10,20,30], // 可选每页展示数列表
+                            pageChange:function(){ // 页码发生变化是调用的函数
+                                console.log('页签发生变化');
+                            }
+                        }
+                */
                 var inputButtonList = document.querySelectorAll('.pagination input[type="button"]'); // 获取分页组件内所有的input按钮
                 var parentUl = document.querySelector('.pagination ul');
                 var pageSetLi = parentUl.children; // 获取页签列表
