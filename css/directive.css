@@ -8,6 +8,11 @@
     height:25px;
     border:1px solid #cfcfcf;
     border-radius:3px;
+    vertical-align: top;
+}
+.pagination span{
+    line-height:25px;
+    vertical-align:super;
 }
 .pagination input[type='button']{
     padding:3px 5px;
@@ -17,6 +22,7 @@
     background:none;
     outline: none;
     cursor:pointer;
+    vertical-align: top;
 }
 .pagination input[type='button']:hover{
     background:#33bbff;
@@ -25,6 +31,7 @@
 .paginationList{
     display: inline-block;
     height:100%;
+    vertical-align: top;
 }
 .paginationList ul{
     display: flex;

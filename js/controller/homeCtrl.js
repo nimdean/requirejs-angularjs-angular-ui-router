@@ -13,6 +13,10 @@ define([], function(){
             pageChange:function(){ // 页码发生变化是调用的函数
                 console.log('页签发生变化');
             }
+        };
+        $scope.mousewheel = function(dir){
+            var info = dir == 'up' ? '上' : '下';
+            console.log(info);
         }
     }];
     return ctrl;
